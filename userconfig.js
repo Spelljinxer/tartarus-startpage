@@ -31,7 +31,7 @@ const default_config = {
   tabs: [
     {
       name: "うち",
-      background_url: "src/img/banners/eula.gif",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
           name: "Frequently Used",
