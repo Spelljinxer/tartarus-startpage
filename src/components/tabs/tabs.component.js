@@ -114,7 +114,7 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #282828;
+          background: #fffff;
       }
 
       .categories {
