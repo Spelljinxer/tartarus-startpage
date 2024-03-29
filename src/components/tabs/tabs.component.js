@@ -207,7 +207,7 @@ class Tabs extends Component {
       .categories .links li {
           list-style: none;
       }
-
+      
       .categories ul .links a {
           color: #d4be98;
           text-decoration: none;
