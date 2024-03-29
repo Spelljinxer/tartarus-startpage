@@ -57,7 +57,7 @@ const default_config = {
             {
               name: "Sauce Finder",
               url: "https://saucenao.com/",
-              icon: "plant-2",
+              icon: "cherry",
               icon_color: "#ffa1ba",
             },
           ]
@@ -72,9 +72,9 @@ const default_config = {
           //   icon_color: "#a9b665",
           // },
           {
-            name: "twitter",
-            url: "https://twitter.com/home",
-            icon: "brand-twitter-filled",
+            name: "anix",
+            url: "https://anix.to/",
+            icon: "device-tv",
             icon_color: "#7daea3",
           },
           {
@@ -158,11 +158,11 @@ const default_config = {
               icon_color: "#7daea3",
             },
             {
-              name: "leonardo ai",
-              url: "https://app.leonardo.ai/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
-            },
+              name: "konachan",
+              url: "https://konachan.com/",
+              icon : "woman",
+              icon_color: "#d3869b",
+            }
           ],
         },
         {
@@ -187,9 +187,9 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
-              name: "adobe color",
-              url: "https://color.adobe.com/es/create/color-wheel",
-              icon: "brand-adobe",
+              name: "colorFromIMG",
+              url: "https://imagecolorpicker.com/",
+              icon: "palette",
               icon_color: "#7daea3",
             },
             {
@@ -214,81 +214,69 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
+      name: "reddit",
       background_url: "src/img/banners/cbg-7.gif",
       categories: [
         {
-          name: "repositories",
+          name: "Genshin",
           links: [
             {
-              name: "github",
-              url: "https://github.com/",
-              icon: "brand-github",
+              name: "r/genshinleaks",
+              url: "https://www.reddit.com/r/Genshin_Impact_Leaks/",
+              icon: "droplet",
               icon_color: "#7daea3",
             },
             {
-              name: "gitlab",
-              url: "https://gitlab.com/",
-              icon: "brand-gitlab",
+              name: "r/genshin",
+              url: "https://www.reddit.com/r/Genshin_Impact/",
+              icon: "flame",
               icon_color: "#e78a4e",
             },
           ],
         },
         {
-          name: "resources",
+          name: "Tech",
           links: [
             {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
-            },
-            {
-              name: "flutter",
-              url: "https://docs.flutter.dev/ui",
-              icon: "brand-flutter",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "hacktricks",
-              url: "https://book.hacktricks.xyz/welcome/readme",
-              icon: "biohazard",
+              name: "r/unixporn",
+              url: "https://www.reddit.com/r/unixporn/",
+              icon: "brand-debian",
               icon_color: "#ea6962",
             },
             {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
+              name: "r/MechKB",
+              url: "https://www.reddit.com/r/MechanicalKeyboards/",
+              icon: "keyboard",
               icon_color: "#7daea3",
+            },
+            {
+              name: "r/nvidia",
+              url: "https://www.reddit.com/r/nvidia/",
+              icon: "cpu",
+              icon_color: "#89b482", 
             },
           ],
         },
         {
-          name: "challenges",
+          name: "Anime",
           links: [
             {
-              name: "leetcode",
-              url: "https://leetcode.com/",
-              icon: "code",
+              name: "r/Animemes",
+              url: "https://www.reddit.com/r/Animemes/",
+              icon: "mood-smile-beam",
               icon_color: "#ffa1ba",
             },
             {
-              name: "cryptohack",
-              url: "https://cryptohack.org/challenges/",
-              icon: "brain",
+              name: "r/Bocchi",
+              url: "https://www.reddit.com/r/BocchiTheRock/",
+              icon: "music",
               icon_color: "#e78a4e",
             },
             {
-              name: "tryhackme",
-              url: "https://tryhackme.com/dashboard",
-              icon: "brand-onedrive",
+              name: "r/wholesomeanimemes",
+              url: "https://www.reddit.com/r/wholesomeanimemes",
+              icon: "heart",
               icon_color: "#ea6962",
-            },
-            {
-              name: "hackerrank",
-              url: "https://www.hackerrank.com/dashboard",
-              icon: "code-asterix",
-              icon_color: "#a9b665",
             },
           ],
         },
@@ -310,29 +298,6 @@ const default_config = {
           ],
         },
         {
-          name: "storage",
-          links: [
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/u/0/my-drive",
-              icon: "brand-google-drive",
-              icon_color: "#e78a4e",
-            },
-            {
-              name: "dropbox",
-              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
-              icon: "box-seam",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "fotos",
-              url: "https://photos.google.com/u/1",
-              icon: "photo-filled",
-              icon_color: "#ea6962",
-            },
-          ],
-        },
-        {
           name: "stuff",
           links: [
             {
@@ -341,6 +306,24 @@ const default_config = {
               icon: "brand-linkedin",
               icon_color: "#7daea3",
             },
+            {
+              name: "github",
+              url: "https://github.com/",
+              icon: "brand-github",
+              icon_color: "#a1b1ff",
+            },
+            {
+              name: "portfolio",
+              url: "https://spelljinxer.github.io/",
+              icon: "app-window",
+              icon_color: "#e78a4e",
+            },
+          ],
+        },
+        {
+          name: "- 'You will never betray what you have worked so painstakingly to build.'",
+          links: [
+
           ],
         },
       ],
