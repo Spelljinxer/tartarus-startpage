@@ -241,7 +241,7 @@ class Tabs extends Component {
           text-transform: uppercase;
           overflow-wrap: break-word;
           width: 25px;
-          height: 250px;
+          height: 225px;
           padding: 1em;
           margin: auto;
           border-radius: 5px;
@@ -249,10 +249,10 @@ class Tabs extends Component {
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
+          background: linear-gradient(to top, rgb(50 48 47 / 60%), transparent);
           color: var(--flavour);
           letter-spacing: 1px;
-          font: 500 30px 'Nunito', sans-serif;
+          font: 500 29px 'Nunito', sans-serif;
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;

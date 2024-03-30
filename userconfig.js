@@ -60,10 +60,16 @@ const default_config = {
               icon: "cherry",
               icon_color: "#ffa1ba",
             },
+            {
+              name: "genshin daily",
+              url: "https://saucenao.com/",
+              icon: "calendar clock",
+              icon_color: "#e78a4e",
+            },
           ]
         },
         {
-        name: "Social Media",
+        name: "Media",
         links: [
           // {
           //   name: "whatsapp",
@@ -76,6 +82,12 @@ const default_config = {
             url: "https://anix.to/",
             icon: "device-tv",
             icon_color: "#7daea3",
+          },
+          {
+            name: "manga",
+            url: "https://mangakakalot.com/",
+            icon: "books",
+            icon_color: "#a1b1ff",
           },
           {
             name: "reddit",
