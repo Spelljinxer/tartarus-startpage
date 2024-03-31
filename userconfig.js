@@ -62,7 +62,7 @@ const default_config = {
             },
             {
               name: "genshin daily",
-              url: "https://saucenao.com/",
+              url: "https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481",
               icon: "calendar clock",
               icon_color: "#e78a4e",
             },
